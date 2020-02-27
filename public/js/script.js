@@ -2,7 +2,7 @@ console.log('script');
 
 let x=2;
 const y=10; //connot change the value when the variable is declared const because its constant
-y=25;
+// y=25;
 console.log(y);
 
 //let has block scope - it is known only inside the structure where it is declared
