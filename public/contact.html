@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Nodejs</title>
+</head>
+<body>
+  <h1 class="text-info color-dark jumbotron"> Contact Page </h1>
+  <a class="h2"href="index.html"> Home </a>
+
+<!-- action = where it goes  and method= is where its going to be used -->
+  <form class="text-dark border" action="sendForm" method="post">
+    <label for="username">Username</label>
+    <input type="text" class="form-control" id="username" name="username" value="username">
+    <br>
+    <label for="email">Email</label>
+    <input type="text" class="form-control" id="Email" name="email" value="email">
+    <br>
+    <input type="submit" id="submit" value="submit">
+  </form>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js">  </script>
+  <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js">  </script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js">  </script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
